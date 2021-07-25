@@ -53,7 +53,7 @@ console.log(allowedPets);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-/* if (adventurous) {
+if (adventurous) {
   console.log('Adventures are great!');
 } else {
   console.log('How about we stay home?');
@@ -61,7 +61,7 @@ console.log(allowedPets);
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber && adventurous) {
+if (luckyNumber === 2 && adventurous) {
   console.log('Roll the dice!');
 }
 
@@ -85,7 +85,7 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-let mostPets = pets > friendsPets; // try this again in the morning. doesn't work.
+/* let mostPets = pets > friendsPets; // try this again in the morning. doesn't work.
 if (mostPets) {
   console.log(mostPets)
 } else if (pets < friendsPets) {
