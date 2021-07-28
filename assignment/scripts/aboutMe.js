@@ -25,7 +25,7 @@ console.log(luckyNumber);
 
 // provided two options for practice. for some reason, the first one is harder for me to remember the syntax.
 console.log('My name is', fullName + ', and I think', luckyNumber, 'is a winner!' );
-console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner`);
+console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner!`);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
@@ -94,6 +94,7 @@ if (pets > friendsPets) {
 } console.log(mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+// first attempt when submitting assignment
 switch (mostPets) {
   case 1:
     pets > friendsPets;
@@ -105,6 +106,18 @@ switch (mostPets) {
   default:
   console.log(mostPets);
   break;
+}
+
+// second attempt after submitting assignment and receiving feedback
+switch (mostPets) {
+  case pets:
+    pets > friendsPets;
+    mostPets = pets;
+    console.log(mostPets);
+    break;
+  default:
+    mostPets = friendsPets;
+    console.log(mostPets);
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
